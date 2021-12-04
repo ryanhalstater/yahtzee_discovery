@@ -1,7 +1,7 @@
 # Yahtzee Exploration
 
 If you start with five dice and have the option to roll as many dice as you wish, what is the probablility of getting five of the same number within three rolls?
-1.26%, if you assume the player keeps the dice that are showing the same number.
+**1.26%**, if you assume the player keeps the dice that are showing the same number.
 
 How we did it (Markov Chain approach):
 - Define states: no dice saved, two dice saved, three dice saved, four dice saved, five dice saved
@@ -21,5 +21,5 @@ Two different methods yielding the same answer: Combinatorics and Python simulat
         - This computes to: 1*5*4*BinomialCoeff(3,1) + 1*5*1*BinomCoeff(3,1) + 5
 - Simulation: Go through all possible outcomes, count how many go to which state, and divide by the total number of outcomes
 
-Combinatorics: See
-Simulation: See 
+Combinatorics: See yahtzee.ods (spreadsheet file openable by LibreOffice or Excel)
+Simulation: See Yahtzee.ipynb (Jupyter Notebook file)
