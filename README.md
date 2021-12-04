@@ -18,7 +18,7 @@ Two different methods yielding the same answer: Combinatorics and Python simulat
 - Combinatorics: Compute number of outcomes to get from one state to another, and divide by total number of outcomes
    - Note this required accounting for order (typically through Binomial or Multinomial coefficient) and dividing outcomes into categories 
         - Example: Outcomes going from two dice saved to three dice saved = getting one die of same type and two unique + one same and two different from the first but identical + getting three of same number that was not the original number
-        - This computes to: 1*5*4*BinomialCoeff(3,1) + 1*5*1*BinomCoeff(3,1) + 5
+        - This computes to: 1\*5*4*BinomialCoeff(3,1) + 1*5*1*BinomCoeff(3,1) + 5
 - Simulation: Go through all possible outcomes, count how many go to which state, and divide by the total number of outcomes
 
 Combinatorics: See yahtzee.ods (spreadsheet file openable by LibreOffice or Excel)
